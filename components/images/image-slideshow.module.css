@@ -1,0 +1,26 @@
+/* paretnt take relative */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* child take absolute */
+/* position: absolute; → Places all images on top of each other. */
+.slideshow img {
+    position: absolute;
+    transition: opacity 0.8s ease-in-out;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.active {
+    opacity: 1;
+    z-index: 1;
+}
