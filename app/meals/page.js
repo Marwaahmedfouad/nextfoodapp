@@ -4,7 +4,6 @@ import classes from "./page.module.css";
 import MealsGrid from "../../components/meals/meals-grid";
 import { getMeals } from "../../lib/meals";
 import { Suspense } from "react";
-// import MealsGrid from '@/components/meals/meals-grid';
 
 async function Meals() {
   const meals = await getMeals();
@@ -16,8 +15,8 @@ export default function MealsPage() {
     <>
       <header className={classes.header}>
         <h1>
-          Delicious meals, created{" "}
-          <span className={classes.highlight}>by you</span>
+          Delicious meals, created
+          <span className={classes.highlight}> by you</span>
         </h1>
         <p>
           Choose your favorite recipe and cook it yourself. It is easy and fun!
