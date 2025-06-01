@@ -15,30 +15,30 @@ export default function ShareMealPage() {
         <h1>
           Share your <span className={classes.highlight}>favorite meal</span>
         </h1>
-        <p>Or any other meal you feel needs sharing!</p>
+        <p>Let your unique flavors inspire our community</p>
       </header>
       <main className={classes.main}>
         <form className={classes.form} action={formAction}>
           <div className={classes.row}>
             <p>
-              <label htmlFor="name">Your name</label>
+              <label htmlFor="name">Chef's Name</label>
               <input type="text" id="name" name="name" required />
             </p>
             <p>
-              <label htmlFor="email">Your email</label>
+              <label htmlFor="email">Chef's Email</label>
               <input type="email" id="email" name="email" required />
             </p>
           </div>
           <p>
-            <label htmlFor="title">Title</label>
+            <label htmlFor="title">Recipe Title</label>
             <input type="text" id="title" name="title" required />
           </p>
           <p>
-            <label htmlFor="summary">Short Summary</label>
+            <label htmlFor="summary">Taste Description</label>
             <input type="text" id="summary" name="summary" required />
           </p>
           <p>
-            <label htmlFor="instructions">Instructions</label>
+            <label htmlFor="instructions">Cooking Journey </label>
             <textarea
               id="instructions"
               name="instructions"

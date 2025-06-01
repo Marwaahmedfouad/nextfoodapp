@@ -17,7 +17,7 @@ function MainHeader() {
             src={logoImg}
             // fill
             quality={100}
-            alt="The Wild Oasis Logo"
+            alt="CulinaryConnect Logo"
             // className="object-cover"
             priority
           />
@@ -26,10 +26,10 @@ function MainHeader() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <NavLink href="/meals"> Browse Meals</NavLink>
+              <NavLink href="/meals">Recipes</NavLink>
             </li>
             <li>
-              <NavLink href="/community"> Foodies Community</NavLink>
+              <NavLink href="/community">Food Lovers</NavLink>
             </li>
           </ul>
         </nav>
